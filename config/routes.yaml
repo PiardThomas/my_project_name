@@ -1,0 +1,6 @@
+# app_lucky_number:
+#     path: /lucky/number
+#     controller: App\Controller\LuckyController::number
+# app__hello_world:
+#     path: /hello/world
+#     controller: App\Controller\HelloController::hello
