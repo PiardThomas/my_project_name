@@ -1,0 +1,16 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello TableController!{% endblock %}
+
+{% block body %}
+
+    <h1>Hello ! ✅</h1>
+    {#{{form(formulaire)}}#}
+    {{form_start(formulaire)}}
+    {{form_widget(formulaire.table_number)}}
+    {{form_widget(formulaire.compteur)}}
+    {{form_widget(formulaire.Choisir)}}
+    {{form_end(formulaire)}}
+
+</div>
+{% endblock %}
